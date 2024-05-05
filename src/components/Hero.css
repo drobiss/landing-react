@@ -1,0 +1,32 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/header-background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content-container {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 70px;
+  color: #252432;
+}
+
+.btn-hero {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #252432; 
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+}

@@ -1,9 +1,13 @@
 /* 700px a více */
 nav {
+  width: 100%;
+  z-index: 999;
   background-color: transparent;
+  position: fixed;
 }
 
 .navigation {
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,7 +24,7 @@ nav {
 }
 
 .nav-header img {
-  width: 110px;
+  width: 163px;
   /* margin-left: 30px; */
 }
 
@@ -35,7 +39,6 @@ nav {
   border-radius: 20px;
   border:1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.27);
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,6 +56,10 @@ nav {
 
 .nav-list a {
   text-decoration: none;
+  color: #8987A1;
+}
+
+.nav-list a:hover {
   color: #252432;
 }
 
@@ -61,6 +68,7 @@ nav {
  
 
  .btn-sing-in {
+    cursor: pointer;
     margin-right: 10px;
     background-color: transparent;
     color: #8987A1;
@@ -68,12 +76,13 @@ nav {
  }
 
  .btn-sing-up {
-  color: #fff;
-  font-weight: bold;
-   background-color: #4E47FF;
-   border: none;
-   padding: 12px 25px;
-   border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
  }
 
 
